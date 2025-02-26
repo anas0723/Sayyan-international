@@ -15,14 +15,14 @@ export default function Singin() {
 
         {/* //form section  */}
         <div className="flex flex-col items-center">
-          <div className="border-2  border-gray-300 bg-white p-6 shadow-2xl rounded-lg w-full max-w-md">
-            <h2 className="text-center mb-6 tracking-wider text-lg font-normal">
+          <div className="border-2 border-gray-300 bg-white p-6 shadow-2xl rounded-lg w-full max-w-md">
+            <h2 className="text-center  mb-6 tracking-wider text-lg font-normal">
               Please enter your login details
             </h2>
 
             <div className="w-full">
               {/* Email Input */}
-              <div className="relative flex items-center w-full mt-4">
+              <div className="relative mr-20 flex items-center w-full mt-4">
                 <AiOutlineMail className="absolute left-3 text-gray-500 text-lg" />
                 <input
                   type="email"
@@ -49,7 +49,7 @@ export default function Singin() {
               {/* Forgot Password */}
 
               <Link 
-                to={"/Forget"}
+                to={"/forget"}
                 className="block text-center text-blue-500 mt-4 hover:underline"
               >
                 Forgotten Password?
