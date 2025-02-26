@@ -2,13 +2,14 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { TbLockPassword } from "react-icons/tb";
 import Logo from "../assets/pictures/logo/Group 802.jpg";
+import { Link } from "react-router-dom";
 
 export default function Singin() {
   return (
     <>
       <div className=" min-h-screen flex-none  py-20 px-6 md:px-20">
         {/* logo section/ */}
-        <div className="mb-6   ">
+        <div className="mb-6">
           <img src={Logo} className="w-32  md:w-40" />
         </div>
 
@@ -47,12 +48,12 @@ export default function Singin() {
 
               {/* Forgot Password */}
 
-              <a
-                href="#"
+              <Link 
+                to={"/Forget"}
                 className="block text-center text-blue-500 mt-4 hover:underline"
               >
                 Forgotten Password?
-              </a>
+              </Link>
             </div>
           </div>
         </div>
