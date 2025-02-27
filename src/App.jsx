@@ -6,6 +6,7 @@ import Forget from "./components/Forget";
 import Email from "./components/Email";
 import DashboardTrips from "./components/DashboardTrips";
 import DashboardSourses from "./components/DashboardSourses";
+import AllScreen from "./components/AllScreen";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/email" element={<Email />} />
       <Route path="/dashboard-trips" element={<DashboardTrips />} />
       <Route path="/dashboard-sourses" element={<DashboardSourses />}/>
+      <Route path="/allscreen" element={<AllScreen />}/>
     </Routes>
   );
 }

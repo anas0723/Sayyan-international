@@ -3,6 +3,7 @@ import Logo from "../assets/pictures/logo/Group 802.jpg";
 import { FaArrowLeft } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import AllScreen from "./AllScreen";
 
 export default function Forget() {
   return (
@@ -29,6 +30,8 @@ export default function Forget() {
             </Link>
           </div>
         </div>
+        <a className="" href="/allscreen"> anas
+        </a>
       </div>
     </>
   );

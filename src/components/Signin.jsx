@@ -3,7 +3,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { TbLockPassword } from "react-icons/tb";
 import Logo from "../assets/pictures/logo/Group 802.jpg";
 import { Link } from "react-router-dom";
-
+import AllScreen from "./AllScreen";
 export default function Singin() {
   return (
     <>
@@ -48,7 +48,7 @@ export default function Singin() {
 
               {/* Forgot Password */}
 
-              <Link 
+              <Link
                 to={"/forget"}
                 className="block text-center text-blue-500 mt-4 hover:underline"
               >
@@ -56,6 +56,9 @@ export default function Singin() {
               </Link>
             </div>
           </div>
+        </div>
+        <div className="bg-yellow-500 inline text-white p-3 rounded mt-4">
+          <Link to={"/allscreen"}>All Screen</Link>
         </div>
       </div>
     </>
