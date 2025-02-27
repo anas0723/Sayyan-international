@@ -57,7 +57,7 @@ export default function Singin() {
             </div>
           </div>
         </div>
-        <div className="bg-yellow-500 inline text-white p-3 rounded mt-4">
+        <div className="bg-yellow-500 inline text-white p-3 rounded mt-4 ">
           <Link to={"/allscreen"}>All Screen</Link>
         </div>
       </div>

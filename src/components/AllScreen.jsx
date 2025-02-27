@@ -14,7 +14,7 @@ function AllScreen() {
         <div className="  inline-flex justify-center  text-white bg-yellow-500 p-3 rounded-2xl mt-5 hover:underline">
           <Link to={"/dashboard-trips"}>Dashboard Trips</Link>
         </div>
-        <div className=" inline-flex justify-center  text-white bg-yellow-500 p-3 rounded-2xl mt-5 hover:underline">
+        <div className=" inline-flex justify-center  text-white bg-yellow-500 p-3 rounded-2xl mt-5 hove r:underline">
           <Link to={"/email"}>Email</Link>
         </div>
         <div className=" inline-flex justify-center text-white bg-yellow-500 p-3 rounded-2xl mt-5 hover:underline">

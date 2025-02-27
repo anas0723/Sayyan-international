@@ -7,6 +7,9 @@ import Email from "./components/Email";
 import DashboardTrips from "./components/DashboardTrips";
 import DashboardSourses from "./components/DashboardSourses";
 import AllScreen from "./components/AllScreen";
+import Companies from "./components/Companies";
+import Transpoter from "./components/Transpoter";
+import Setting from "./components/Setting";
 
 function App() {
   return (
@@ -17,6 +20,10 @@ function App() {
       <Route path="/dashboard-trips" element={<DashboardTrips />} />
       <Route path="/dashboard-sourses" element={<DashboardSourses />}/>
       <Route path="/allscreen" element={<AllScreen />}/>
+      <Route path="/companies" element={<Companies/>} />
+      <Route path="/transpoter" element={<Transpoter/>} />
+      <Route path="/setting" element={<Setting />} />
+
     </Routes>
   );
 }

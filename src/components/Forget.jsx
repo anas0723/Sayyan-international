@@ -30,8 +30,7 @@ export default function Forget() {
             </Link>
           </div>
         </div>
-        <a className="" href="/allscreen"> anas
-        </a>
+  
       </div>
     </>
   );
