@@ -1,6 +1,5 @@
 import React from "react";
 import Signin from "./components/signin";
-import "/src/index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Forget from "./components/Forget";
 import Email from "./components/Email";
@@ -10,6 +9,8 @@ import AllScreen from "./components/AllScreen";
 import Companies from "./components/Companies";
 import Transpoter from "./components/Transpoter";
 import Setting from "./components/Setting";
+import ChangePassword from "./components/ChangePassword";
+import NewTrip from "./components/NewTrip";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       <Route path="/companies" element={<Companies/>} />
       <Route path="/transpoter" element={<Transpoter/>} />
       <Route path="/setting" element={<Setting />} />
-
+      <Route path="/change-password" element={<ChangePassword />} />
+      <Route path="/new-trip" element={< NewTrip />} />
     </Routes>
   );
 }
